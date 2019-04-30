@@ -2,7 +2,7 @@
 #   Programming Assignment 3
 #     Prob-2.py
 
-# YOUR NAME
+# Rachel Watson
 
 def example():
     print("\nExample Output")
@@ -23,18 +23,29 @@ def studentCode():
     y = 3.14
     z = "a string"
 
+    print("x", x, "is a", type(x))
+
+    print("y", y, "is a", type(y))
+
+    print("z", z, "is a", type(z))
+
     # print the values for x, y, and z and their types each on a separate line
 
     print()
     # section 2
     # convert y to an int and print
-
-    y = 9.99
-    # convert y to an int and print
-
-    z = "12.34"
-    # print z and its type
+    y= int(3.14)
     
+    print("y", y, "is a", type(y))
+
+    y = int(9.99)
+
+    # convert y to an int and print
+    print("y", y, "is a", type(y))
+
+    z = float("12.34")
+    # print z and its type
+    print("z", z, "is a", type(z))
     # use eval() to convert z to a number and print its value and type
 
 
